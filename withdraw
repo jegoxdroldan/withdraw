@@ -20,7 +20,5 @@ local bankid = "469299ad-dafd-48b3-8e9f-92658f9bb21d"--bank
 for i=1, 1000 do
    Bank(bankid):withdraw({}, 1)
    print('withdrawed 1 gem')
-   Bank(bankid):withdraw({}, 1)
-   print('withdrawed 1 gem')
    task.wait()
 end
